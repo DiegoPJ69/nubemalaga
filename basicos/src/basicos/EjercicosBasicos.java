@@ -310,10 +310,8 @@ pista: PARA LEER DE TECLADO USAD LA CLASE SCANNER
 
 public static void AssessmentObesidad()
 {
-
-
+ //TODO hacer el IMC
 }
-
 }
 
 

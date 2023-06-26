@@ -34,9 +34,9 @@ import java.util.Scanner;
 
 public class EjercicosBasicos {
 	
-	public static void main(String[] args) 
+//	public static void main(String[] args) 
 	
-	{
+//	{
 //ejercicio 1
 //		if(estaCadena("en un lugar de la mancha",'x')) {
 //		System.out.println("el caracter está");
@@ -82,9 +82,13 @@ public class EjercicosBasicos {
 //System.out.println(invertirCadena(cadenaainvertir));
 			
 //ejercicio 7
-		ImprimeSecuencia();
+	//	ImprimeSecuencia();
 		
-	}
+//ejercicio 8
+		
+//		AssessmentObesidad();
+		
+//	}
 	
 	//ejercicio 1
 	
@@ -293,7 +297,6 @@ public static void ImprimeSecuencia()
 
 //ejercicio 8
 /*
- * TODO
  * HACED UNA APLICACIÓN QUE PERMITA INTRODUCIR AL USUARIO
  * SU ESTATURA EN METROS Y SU PESO EN KG Y LE INFORME SU 
  * INFORME DE SU ÍNDICE DE MASA CORPORAL (IMC) SEGÚN LA SIGUIENTE FÓRMULA
@@ -310,7 +313,7 @@ pista: PARA LEER DE TECLADO USAD LA CLASE SCANNER
 
 public static void AssessmentObesidad()
 {
- //TODO hacer el IMC
+ //hacer el IMC
 	
 
 	
@@ -320,35 +323,41 @@ public static void AssessmentObesidad()
 	
 	float peso=scanner.nextFloat();
 		
-	System.out.println(queNota(nota));
+	System.out.println("Introduce tu altura en mtr");
+	
+	float altura=scanner.nextFloat();
+	
+	float IMC=peso/(altura*altura);
+	
+	System.out.println("tu IMC es "+IMC);
+	
+	String cad="";
 	
 	
-	
-	
-		String cad="";
-		if(imc()<16.00){
-		  cad="Infrapeso: Delgadez Severa";
-		}else if(imc()<=16.00 || imc()<=16.99){
-		  cad="Infrapeso: Delgadez moderada";
-		}else if(imc()<=17.00 ||imc()<=18.49){
-		  cad="Infrapeso: Delgadez aceptable";
-		}else if(imc()<=18.50 || imc()<=24.99){
-		  cad="Peso Normal";
-		}else if(imc()<=25.00 || imc()<=29.99){
-		  cad="Sobrepeso";
-		}else if(imc()<=30.00 || imc()<=34.99){
-		  cad="Obeso: Tipo I";
-		}else if(imc()<=35.00 || imc()=40.00){
-		  cad="Obeso: Tipo III";
-		}else{
+		if(IMC<16.00){
+		  cad="DESNUTRIDO";
+		}else if(IMC>=16.00 & IMC<18){
+		  cad="DELGADO";
+		}else if(IMC>=18.00 & IMC<25){
+		  cad="IDEAL";
+		}else if(IMC>=25 & IMC<31){
+		  cad="SOBREPESO";
+		}else if(IMC<=31){
+		  cad="OBESO";
+		} else{
 		  cad="no existe clasificacion";
 		}
-		  return cad;
+		
+	System.out.println("tu estado es "+cad);
 	
 	
-	
+}	
+
+//TODO hacer trabajo con listas
+
+
 }
-}
+
 
 
 

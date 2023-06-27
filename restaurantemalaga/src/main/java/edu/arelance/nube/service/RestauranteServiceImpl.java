@@ -2,9 +2,10 @@ package edu.arelance.nube.service;
 
 import java.util.Optional;
 
-import javax.transaction.Transactional;
+
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import edu.arelance.nube.repository.RestauranteRepository;
 import edu.arelance.nube.repository.entity.Restaurante;
@@ -17,14 +18,14 @@ public class RestauranteServiceImpl implements RestauranteService {
 	RestauranteRepository restauranteRepository;
 	
 	@Override
-	@Transactional
+	@Transactional(readOnly = true)//permitimos acceso concurrente a la tabla restaurante
 	public Iterable<Restaurante> consultarTodos() {
 		return this.restauranteRepository.findAll();
 		//return null;
 	}
 
 	@Override
-	@Transactional
+	@Transactional (readOnly = true)
 	public Optional<Restaurante> consultarRestaurante(Long id) {
 		return this.restauranteRepository.findById(id);
 		//return Optional.empty();

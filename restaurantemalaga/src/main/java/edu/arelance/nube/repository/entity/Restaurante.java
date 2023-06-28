@@ -26,7 +26,7 @@ public class Restaurante {
 	private String fichaGoogle;
 	private float latitud;
 	private float longitud;
-	private Integer preciomedio;
+	private Integer precio_medio;
 	private String especialidad1;
 	private String especialidad2;
 	private String especialidad3;
@@ -105,11 +105,11 @@ public class Restaurante {
 	}
 
 	public Integer getPreciomedio() {
-		return preciomedio;
+		return precio_medio;
 	}
 
-	public void setPreciomedio(Integer preciomedio) {
-		this.preciomedio = preciomedio;
+	public void setPreciomedio(Integer precio_medio) {
+		this.precio_medio = precio_medio;
 	}
 
 	public String getEspecialidad1() {
@@ -145,7 +145,7 @@ public class Restaurante {
 	}
 
 	public Restaurante(long id, String nombre, String barrio, String direccion, String web, String fichaGoogle,
-			float f, float g, Integer preciomedio, String especialidad1, String especialidad2,
+			float f, float g, Integer precio_medio, String especialidad1, String especialidad2,
 			String especialidad3, LocalDateTime creadoEn) {
 		super();
 		this.id = id;
@@ -156,7 +156,7 @@ public class Restaurante {
 		this.fichaGoogle = fichaGoogle;
 		this.latitud = f;
 		this.longitud = g;
-		this.preciomedio = preciomedio;
+		this.precio_medio = precio_medio;
 		this.especialidad1 = especialidad1;
 		this.especialidad2 = especialidad2;
 		this.especialidad3 = especialidad3;

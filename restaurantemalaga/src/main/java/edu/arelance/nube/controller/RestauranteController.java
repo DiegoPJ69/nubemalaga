@@ -129,6 +129,9 @@ public ResponseEntity<?> borrarPorId (@PathVariable Long id)
 {
 	ResponseEntity<?> responseEntity=null;
 	
+	this.restauranteService.borrarRestaurante(id);
+	responseEntity=ResponseEntity.ok().build();
+	
 	return responseEntity;	
 }
 

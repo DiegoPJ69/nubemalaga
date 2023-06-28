@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import edu.arelance.nube.repository.entity.Restaurante;
 import edu.arelance.nube.service.RestauranteService;
+import io.swagger.v3.oas.annotations.Operation;
 
 /**
  * API WEB
@@ -72,7 +73,7 @@ public ResponseEntity<?> listartodos(){
 }
 
 //GET por ID -> Consultar TODOS GET http://localhost:8081/restaurante/id
-
+@Operation (description="Este servicio consulta restaurantes por un id")
 @GetMapping ("/{id}") //entre llaves porque id es variable
 public ResponseEntity<?> listarPorId (@PathVariable Long id){
 	

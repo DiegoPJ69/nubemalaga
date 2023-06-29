@@ -26,7 +26,7 @@ public class Restaurante {
 	private String fichaGoogle;
 	private float latitud;
 	private float longitud;
-	private Integer precio_medio;
+	private Integer precioMedio;
 	private String especialidad1;
 	private String especialidad2;
 	private String especialidad3;
@@ -104,12 +104,14 @@ public class Restaurante {
 		this.longitud = longitud;
 	}
 
-	public Integer getPreciomedio() {
-		return precio_medio;
+	
+
+	public Integer getPrecioMedio() {
+		return precioMedio;
 	}
 
-	public void setPreciomedio(Integer precio_medio) {
-		this.precio_medio = precio_medio;
+	public void setPrecioMedio(Integer precioMedio) {
+		this.precioMedio = precioMedio;
 	}
 
 	public String getEspecialidad1() {
@@ -156,7 +158,7 @@ public class Restaurante {
 		this.fichaGoogle = fichaGoogle;
 		this.latitud = f;
 		this.longitud = g;
-		this.precio_medio = precio_medio;
+		this.precioMedio = precio_medio;
 		this.especialidad1 = especialidad1;
 		this.especialidad2 = especialidad2;
 		this.especialidad3 = especialidad3;

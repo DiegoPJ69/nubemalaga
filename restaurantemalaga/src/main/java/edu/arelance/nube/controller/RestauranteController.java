@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.arelance.nube.repository.entity.Restaurante;
@@ -95,6 +96,45 @@ public ResponseEntity<?> listarPorId (@PathVariable Long id){
 	return responseEntity;
 }
 
+//GET por reango de precio -> Consultar restaurantes en un rango de precios GET http://localhost:8081/restaurante/listarPorRangoPrecio?preciomin=1?preciomax=5
+@Operation (description="Este servicio consulta restaurantes de acuerdo a un rango de precio")
+@GetMapping ("listarPorRangoPrecio") //entre llaves porque los precios son variables
+public ResponseEntity<?> listarPorRangoPrecio(@RequestParam (name="preciomin") int preciomin,@RequestParam (name="preciomax") int preciomax){
+	
+	ResponseEntity<?> responseEntity=null;
+	Iterable <Restaurante> lrr=null;
+	
+	lrr=this.restauranteService.consultarRestauranteRangoPrecio (preciomin,preciomax);
+	
+	if(lrr != null) {
+	responseEntity=ResponseEntity.ok(lrr);
+	} else
+	{
+	//la consulta NO ha recuperado registros
+	responseEntity=ResponseEntity.noContent().build();
+	}
+	
+	
+	return responseEntity;
+}
+
+//GET por nombre, barrio o especialidad  -> Consultar restaurantes por un criterio no definido a priori GET http://localhost:8081/restaurante/listarPorCriterio?criterio=Pescado
+@Operation (description="Este servicio consulta restaurantes de acuerdo a un criterio")
+@GetMapping ("/listarPorCriterio") //de esta manera ubicamos el metodo de manera inequívoca
+public ResponseEntity<?> listarPorCriterio(@RequestParam (name="criterio") String criterio){
+	
+	ResponseEntity<?> responseEntity=null;
+	Iterable <Restaurante> lrr=null;
+	
+	lrr=this.restauranteService.consultarRestauranteCriterio (criterio);
+	responseEntity=ResponseEntity.ok(lrr);
+	
+	
+	return responseEntity;
+}
+
+
+
 //POST -> insertar un restaurante nuevo http://localhost:8081/restaurante (body restaurante)
 //public pq el post lo llama spring (callback)
 
@@ -116,6 +156,19 @@ public ResponseEntity<?> insertarRestaurante (@RequestBody Restaurante restauran
 public  ResponseEntity<?> modificarRestaurante(@RequestBody Restaurante restaurante,@PathVariable long id){
 	
 	ResponseEntity<?> responseEntity=null;
+	Optional<Restaurante> opRest=null;
+	
+	opRest=this.restauranteService.modificarRestaurante(id, restaurante);
+	
+	if(opRest.isPresent())
+	{
+		Restaurante rm =opRest.get();
+		responseEntity=ResponseEntity.ok(rm);
+		
+	} else {
+	
+	responseEntity=ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+	}
 	
 	return responseEntity;
 	

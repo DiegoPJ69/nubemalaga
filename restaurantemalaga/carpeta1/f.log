@@ -1,0 +1,817 @@
+2023-06-29 14:24:13.466  INFO 4410 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Starting RestaurantemalagaApplication using Java 17.0.7 on MacBook-Pro-de-Diego.local with PID 4410 (/Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga/target/classes started by dpjaraba in /Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga)
+2023-06-29 14:24:13.467 DEBUG 4410 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-06-29 14:24:13.467  INFO 4410 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-06-29 14:24:13.801  INFO 4410 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-29 14:24:13.821  INFO 4410 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2023-06-29 14:24:13.957  INFO 4410 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-06-29 14:24:13.959  INFO 4410 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-29 14:24:13.959  INFO 4410 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-06-29 14:24:13.976  INFO 4410 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-29 14:24:13.977  INFO 4410 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 505 ms
+2023-06-29 14:24:14.038  INFO 4410 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-29 14:24:14.049  INFO 4410 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-06-29 14:24:14.074  INFO 4410 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-06-29 14:24:14.075  INFO 4410 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-29 14:24:14.133  INFO 4410 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-29 14:24:14.134  INFO 4410 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:24:14.300  WARN 4410 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 14:24:14.517  INFO 4410 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-29 14:24:14.542  INFO 4410 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-29 14:24:14.554  INFO 4410 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Started RestaurantemalagaApplication in 1.393 seconds (JVM running for 926.034)
+2023-06-29 14:24:14.580  INFO 4410 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-06-29 14:27:28.677  INFO 4410 --- [RMI TCP Connection(31)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-29 14:27:28.685  INFO 4410 --- [RMI TCP Connection(31)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-29 14:27:28.693  INFO 4410 --- [RMI TCP Connection(31)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:27:28.694  INFO 4410 --- [RMI TCP Connection(31)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-06-29 14:27:28.704  INFO 4410 --- [RMI TCP Connection(31)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-06-29 14:27:34.789  INFO 4636 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Starting RestaurantemalagaApplication using Java 17.0.7 on MacBook-Pro-de-Diego.local with PID 4636 (/Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga/target/classes started by dpjaraba in /Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga)
+2023-06-29 14:27:34.790 DEBUG 4636 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-06-29 14:27:34.792  INFO 4636 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-06-29 14:27:34.860  INFO 4636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-29 14:27:34.861  INFO 4636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-29 14:27:35.728  INFO 4636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-29 14:27:35.792  INFO 4636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2023-06-29 14:27:36.493  INFO 4636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-06-29 14:27:36.508  INFO 4636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-29 14:27:36.508  INFO 4636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-06-29 14:27:36.597  INFO 4636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-29 14:27:36.597  INFO 4636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1736 ms
+2023-06-29 14:27:36.803  INFO 4636 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-29 14:27:36.851  INFO 4636 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-06-29 14:27:37.030  INFO 4636 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-29 14:27:37.137  INFO 4636 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-29 14:27:37.521  INFO 4636 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-29 14:27:37.540  INFO 4636 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-29 14:27:38.233  INFO 4636 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-29 14:27:38.247  INFO 4636 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:27:38.746  WARN 4636 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 14:27:39.230  INFO 4636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-29 14:27:39.283  INFO 4636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-29 14:27:39.302  INFO 4636 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Started RestaurantemalagaApplication in 5.038 seconds (JVM running for 6.421)
+2023-06-29 14:33:33.363  INFO 4636 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-29 14:33:33.373  INFO 4636 --- [RMI TCP Connection(15)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-29 14:33:33.397  INFO 4636 --- [RMI TCP Connection(15)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:33:33.402  INFO 4636 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-29 14:33:33.418  INFO 4636 --- [RMI TCP Connection(15)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-29 14:33:57.862  INFO 4741 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Starting RestaurantemalagaApplication using Java 17.0.7 on MacBook-Pro-de-Diego.local with PID 4741 (/Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga/target/classes started by dpjaraba in /Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga)
+2023-06-29 14:33:57.865 DEBUG 4741 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-06-29 14:33:57.866  INFO 4741 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-06-29 14:33:57.949  INFO 4741 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-29 14:33:57.949  INFO 4741 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-29 14:33:58.942  INFO 4741 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-29 14:33:59.009  INFO 4741 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2023-06-29 14:33:59.783  INFO 4741 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-06-29 14:33:59.797  INFO 4741 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-29 14:33:59.797  INFO 4741 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-06-29 14:33:59.888  INFO 4741 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-29 14:33:59.888  INFO 4741 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1938 ms
+2023-06-29 14:34:00.111  INFO 4741 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-29 14:34:00.172  INFO 4741 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-06-29 14:34:00.362  INFO 4741 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-29 14:34:00.473  INFO 4741 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-29 14:34:00.914  INFO 4741 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-29 14:34:00.938  INFO 4741 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-29 14:34:01.671  INFO 4741 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-29 14:34:01.687  INFO 4741 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:34:02.221  WARN 4741 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 14:34:02.828  INFO 4741 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-29 14:34:02.884  INFO 4741 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-29 14:34:02.906  INFO 4741 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Started RestaurantemalagaApplication in 5.61 seconds (JVM running for 6.763)
+2023-06-29 14:35:01.390  INFO 4741 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-29 14:35:01.399  INFO 4741 --- [RMI TCP Connection(9)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-29 14:35:01.432  INFO 4741 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:35:01.438  INFO 4741 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-29 14:35:01.457  INFO 4741 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-29 14:35:04.513  INFO 4754 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Starting RestaurantemalagaApplication using Java 17.0.7 on MacBook-Pro-de-Diego.local with PID 4754 (/Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga/target/classes started by dpjaraba in /Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga)
+2023-06-29 14:35:04.514 DEBUG 4754 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-06-29 14:35:04.515  INFO 4754 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-06-29 14:35:04.583  INFO 4754 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-29 14:35:04.583  INFO 4754 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-29 14:35:05.543  INFO 4754 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-29 14:35:05.600  INFO 4754 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-06-29 14:35:06.319  INFO 4754 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-06-29 14:35:06.334  INFO 4754 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-29 14:35:06.335  INFO 4754 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-06-29 14:35:06.419  INFO 4754 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-29 14:35:06.419  INFO 4754 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1835 ms
+2023-06-29 14:35:06.633 DEBUG 4754 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.devtools.restart.classloader.RestartClassLoader@281147f2
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (null)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		edu.arelance.nube.repository.entity.Restaurante]
+	Mapping files names []
+	Properties []
+2023-06-29 14:35:06.652 DEBUG 4754 --- [restartedMain] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2023-06-29 14:35:06.655 DEBUG 4754 --- [restartedMain] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2023-06-29 14:35:06.657 DEBUG 4754 --- [restartedMain] o.h.i.internal.IntegratorServiceImpl     : Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2023-06-29 14:35:06.677 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+2023-06-29 14:35:06.677 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2023-06-29 14:35:06.680 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+2023-06-29 14:35:06.680 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2023-06-29 14:35:06.689 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2023-06-29 14:35:06.691 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+2023-06-29 14:35:06.694 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+2023-06-29 14:35:06.694 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+2023-06-29 14:35:06.695 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+2023-06-29 14:35:06.695 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+2023-06-29 14:35:06.695 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+2023-06-29 14:35:06.710 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+2023-06-29 14:35:06.712 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+2023-06-29 14:35:06.713 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+2023-06-29 14:35:06.713 TRACE 4754 --- [restartedMain] o.h.b.r.s.internal.StrategySelectorImpl  : Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+2023-06-29 14:35:06.749  INFO 4754 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-06-29 14:35:06.754 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2023-06-29 14:35:06.950 DEBUG 4754 --- [restartedMain] o.hibernate.service.spi.ServiceBinding   : Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2023-06-29 14:35:06.958 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+2023-06-29 14:35:06.961 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+2023-06-29 14:35:06.963 DEBUG 4754 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2023-06-29 14:35:06.965 DEBUG 4754 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2023-06-29 14:35:06.989  INFO 4754 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-29 14:35:07.036 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@3788d86f
+2023-06-29 14:35:07.036 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@3788d86f
+2023-06-29 14:35:07.036 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3788d86f
+2023-06-29 14:35:07.038 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@19bcd4b4
+2023-06-29 14:35:07.038 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@fda67e0
+2023-06-29 14:35:07.039 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@b67b1cc
+2023-06-29 14:35:07.041 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@26a42a2e
+2023-06-29 14:35:07.043 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@26a42a2e
+2023-06-29 14:35:07.043 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@26a42a2e
+2023-06-29 14:35:07.045 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@de40acd
+2023-06-29 14:35:07.046 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@de40acd
+2023-06-29 14:35:07.046 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@de40acd
+2023-06-29 14:35:07.047 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@cd453c9
+2023-06-29 14:35:07.047 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@cd453c9
+2023-06-29 14:35:07.047 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@cd453c9
+2023-06-29 14:35:07.049 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@6f137b39
+2023-06-29 14:35:07.049 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@6f137b39
+2023-06-29 14:35:07.049 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@6f137b39
+2023-06-29 14:35:07.050 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@7522a265
+2023-06-29 14:35:07.051 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@7522a265
+2023-06-29 14:35:07.051 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@7522a265
+2023-06-29 14:35:07.052 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@76fbe591
+2023-06-29 14:35:07.052 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@76fbe591
+2023-06-29 14:35:07.052 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@76fbe591
+2023-06-29 14:35:07.078 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@61d7d541
+2023-06-29 14:35:07.079 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@61d7d541
+2023-06-29 14:35:07.080 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@61d7d541
+2023-06-29 14:35:07.081 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@5de023bf
+2023-06-29 14:35:07.082 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@5de023bf
+2023-06-29 14:35:07.083 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@423de059
+2023-06-29 14:35:07.084 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@423de059
+2023-06-29 14:35:07.085 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@49dc1f4a
+2023-06-29 14:35:07.086 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@49dc1f4a
+2023-06-29 14:35:07.086 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@47ccf3fa
+2023-06-29 14:35:07.087 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@6f5f64f8
+2023-06-29 14:35:07.089 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@259b6bb1
+2023-06-29 14:35:07.090 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@259b6bb1
+2023-06-29 14:35:07.091 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@284f44f1
+2023-06-29 14:35:07.091 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@284f44f1
+2023-06-29 14:35:07.093 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@1239883
+2023-06-29 14:35:07.094 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1239883
+2023-06-29 14:35:07.095 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@ee46cf5
+2023-06-29 14:35:07.096 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@ee46cf5
+2023-06-29 14:35:07.097 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@742cfb46
+2023-06-29 14:35:07.097 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@742cfb46
+2023-06-29 14:35:07.098 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@533dcd13
+2023-06-29 14:35:07.099 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@533dcd13
+2023-06-29 14:35:07.101 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6847c31f
+2023-06-29 14:35:07.102 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@6847c31f
+2023-06-29 14:35:07.103 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@5ea28ad0
+2023-06-29 14:35:07.104 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@5ea28ad0
+2023-06-29 14:35:07.106 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3414b459
+2023-06-29 14:35:07.106 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3414b459
+2023-06-29 14:35:07.108 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@658d5410
+2023-06-29 14:35:07.109 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@658d5410
+2023-06-29 14:35:07.110 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@265edbc2
+2023-06-29 14:35:07.110 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@265edbc2
+2023-06-29 14:35:07.112 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@175ee7c1
+2023-06-29 14:35:07.113 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@175ee7c1
+2023-06-29 14:35:07.113 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@175ee7c1
+2023-06-29 14:35:07.116 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@57092971
+2023-06-29 14:35:07.121 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@7b377097
+2023-06-29 14:35:07.122 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@7b377097
+2023-06-29 14:35:07.122 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@7b377097
+2023-06-29 14:35:07.123 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@4610ad8d
+2023-06-29 14:35:07.124 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@57a52c9c
+2023-06-29 14:35:07.130 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@10b3e465
+2023-06-29 14:35:07.131 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@10b3e465
+2023-06-29 14:35:07.132 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@451d53eb
+2023-06-29 14:35:07.132 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@451d53eb
+2023-06-29 14:35:07.133 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@52a6e012
+2023-06-29 14:35:07.134 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@52a6e012
+2023-06-29 14:35:07.135 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@4a8e5bfe
+2023-06-29 14:35:07.135 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4a8e5bfe
+2023-06-29 14:35:07.136 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@49e1f7aa
+2023-06-29 14:35:07.136 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@49e1f7aa
+2023-06-29 14:35:07.137 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@2d8cb124
+2023-06-29 14:35:07.138 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@6f9a5ee9
+2023-06-29 14:35:07.138 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@6f9a5ee9
+2023-06-29 14:35:07.139 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@6f9a5ee9
+2023-06-29 14:35:07.140 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@b648c35
+2023-06-29 14:35:07.140 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@b648c35
+2023-06-29 14:35:07.142 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@b648c35
+2023-06-29 14:35:07.144 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@4f2c7bb
+2023-06-29 14:35:07.144 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@1b40bc9a
+2023-06-29 14:35:07.145 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@3af0a2b1
+2023-06-29 14:35:07.146 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@3af0a2b1
+2023-06-29 14:35:07.147 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@3af0a2b1
+2023-06-29 14:35:07.148 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@4c3371a7
+2023-06-29 14:35:07.150 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@4c3371a7
+2023-06-29 14:35:07.151 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@4c3371a7
+2023-06-29 14:35:07.152 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@5e9e9180
+2023-06-29 14:35:07.152 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@1efc54ae
+2023-06-29 14:35:07.154 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@acf909
+2023-06-29 14:35:07.154 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@acf909
+2023-06-29 14:35:07.155 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@1d9d5cc5
+2023-06-29 14:35:07.156 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@647ed724
+2023-06-29 14:35:07.157 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@647ed724
+2023-06-29 14:35:07.158 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@49ace4c2
+2023-06-29 14:35:07.159 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@49ace4c2
+2023-06-29 14:35:07.159 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1abf711
+2023-06-29 14:35:07.160 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@c818850
+2023-06-29 14:35:07.161 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@7500998e
+2023-06-29 14:35:07.165 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@136e55c2
+2023-06-29 14:35:07.169 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@136e55c2
+2023-06-29 14:35:07.170 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@524acf8a
+2023-06-29 14:35:07.170 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7575a4fd
+2023-06-29 14:35:07.170 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@40b6a31e
+2023-06-29 14:35:07.170 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2957efb4
+2023-06-29 14:35:07.170 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2d65438b
+2023-06-29 14:35:07.171 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@756f5896
+2023-06-29 14:35:07.171 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@34ab76
+2023-06-29 14:35:07.171 DEBUG 4754 --- [restartedMain] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1688de8b
+2023-06-29 14:35:07.180 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+2023-06-29 14:35:07.185 DEBUG 4754 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4093e8d2] into BootstrapContext; was [null]
+2023-06-29 14:35:07.185 DEBUG 4754 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4093e8d2) [was null]
+2023-06-29 14:35:07.186 DEBUG 4754 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@18850274] into BootstrapContext; was [null]
+2023-06-29 14:35:07.186 DEBUG 4754 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@60a818f0] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@116ebd26]
+2023-06-29 14:35:07.205 DEBUG 4754 --- [restartedMain] o.h.boot.internal.BootstrapContextImpl   : Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4093e8d2]
+2023-06-29 14:35:07.205 DEBUG 4754 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@4093e8d2]
+2023-06-29 14:35:07.214 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+2023-06-29 14:35:07.217 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2023-06-29 14:35:07.217 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2023-06-29 14:35:07.218 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2023-06-29 14:35:07.218 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2023-06-29 14:35:07.218 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2023-06-29 14:35:07.219 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2023-06-29 14:35:07.220 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2023-06-29 14:35:07.220 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-06-29 14:35:07.221 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2023-06-29 14:35:07.222 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2023-06-29 14:35:07.222 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2023-06-29 14:35:07.222 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2023-06-29 14:35:07.222 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2023-06-29 14:35:07.223 DEBUG 4754 --- [restartedMain] .i.f.i.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2023-06-29 14:35:07.223 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2023-06-29 14:35:07.223 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+2023-06-29 14:35:07.224 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+2023-06-29 14:35:07.225 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+2023-06-29 14:35:07.226 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+2023-06-29 14:35:07.229  INFO 4754 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-29 14:35:07.708  INFO 4754 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-29 14:35:07.714 DEBUG 4754 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : Database ->
+       name : MySQL
+    version : 8.0.25
+      major : 8
+      minor : 0
+2023-06-29 14:35:07.714 DEBUG 4754 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-j-8.0.33 (Revision: 7d6b0800528b6b25c68b52dc10d6c1c8429c100c)
+      major : 8
+      minor : 0
+2023-06-29 14:35:07.715 DEBUG 4754 --- [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : JDBC version : 4.2
+2023-06-29 14:35:07.727  INFO 4754 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-29 14:35:07.761 DEBUG 4754 --- [restartedMain] o.h.e.j.env.spi.IdentifierHelperBuilder  : JDBC driver metadata reported database stores quoted identifiers in more than one case
+2023-06-29 14:35:07.762 DEBUG 4754 --- [restartedMain] o.h.e.j.env.spi.IdentifierHelperBuilder  : IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2023-06-29 14:35:07.770 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [bdrestaurantes]
+2023-06-29 14:35:07.770 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [null]
+2023-06-29 14:35:07.781 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.resource.beans.spi.ManagedBeanRegistry]
+2023-06-29 14:35:07.784 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+2023-06-29 14:35:07.788 DEBUG 4754 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@47eba6d9] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@951901c]
+2023-06-29 14:35:07.821 DEBUG 4754 --- [restartedMain] o.h.boot.model.relational.Namespace      : Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2023-06-29 14:35:07.836 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:07.869 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [DTYPE]
+2023-06-29 14:35:07.870 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2023-06-29 14:35:07.878 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.EntityBinder         : Import with entity name Restaurante
+2023-06-29 14:35:07.879 TRACE 4754 --- [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl    : Import: Restaurante -> edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:07.879 TRACE 4754 --- [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl    : Import: edu.arelance.nube.repository.entity.Restaurante -> edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:07.880 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [restaurantes]
+2023-06-29 14:35:07.881 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [restaurantes]
+2023-06-29 14:35:07.883 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.EntityBinder         : Bind entity edu.arelance.nube.repository.entity.Restaurante on table restaurantes
+2023-06-29 14:35:07.907 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.id
+2023-06-29 14:35:07.913 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [id]
+2023-06-29 14:35:07.913 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [id]
+2023-06-29 14:35:07.914 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.917 DEBUG 4754 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [edu.arelance.nube.repository.entity.Restaurante] is safe
+2023-06-29 14:35:07.917 DEBUG 4754 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:07.918 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property id with lazy=false
+2023-06-29 14:35:07.920 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:id]
+2023-06-29 14:35:07.923 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for id
+2023-06-29 14:35:07.925 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [id]
+2023-06-29 14:35:07.925 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [id]
+2023-06-29 14:35:07.925 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [id]
+2023-06-29 14:35:07.926 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property id
+2023-06-29 14:35:07.939 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading id with null
+2023-06-29 14:35:07.942 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2023-06-29 14:35:07.942 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Bind @Id on id
+2023-06-29 14:35:07.943 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.barrio
+2023-06-29 14:35:07.943 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [barrio]
+2023-06-29 14:35:07.943 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [barrio]
+2023-06-29 14:35:07.943 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=barrio, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.943 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property barrio with lazy=false
+2023-06-29 14:35:07.943 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:barrio]
+2023-06-29 14:35:07.944 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for barrio
+2023-06-29 14:35:07.947 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [barrio]
+2023-06-29 14:35:07.947 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [barrio]
+2023-06-29 14:35:07.948 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [barrio]
+2023-06-29 14:35:07.948 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property barrio
+2023-06-29 14:35:07.948 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading barrio with null
+2023-06-29 14:35:07.948 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.creadoEn
+2023-06-29 14:35:07.949 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [creado_en]
+2023-06-29 14:35:07.951 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [creado_en]
+2023-06-29 14:35:07.952 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=creado_en, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.956 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property creadoEn with lazy=false
+2023-06-29 14:35:07.956 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:creadoEn]
+2023-06-29 14:35:07.956 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for creadoEn
+2023-06-29 14:35:07.956 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [creado_en]
+2023-06-29 14:35:07.956 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property creadoEn
+2023-06-29 14:35:07.957 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading creadoEn with null
+2023-06-29 14:35:07.957 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.direccion
+2023-06-29 14:35:07.957 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [direccion]
+2023-06-29 14:35:07.957 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [direccion]
+2023-06-29 14:35:07.957 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=direccion, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.957 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property direccion with lazy=false
+2023-06-29 14:35:07.957 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:direccion]
+2023-06-29 14:35:07.957 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for direccion
+2023-06-29 14:35:07.957 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [direccion]
+2023-06-29 14:35:07.958 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [direccion]
+2023-06-29 14:35:07.958 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [direccion]
+2023-06-29 14:35:07.958 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property direccion
+2023-06-29 14:35:07.958 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading direccion with null
+2023-06-29 14:35:07.958 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.especialidad1
+2023-06-29 14:35:07.958 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad1]
+2023-06-29 14:35:07.958 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad1]
+2023-06-29 14:35:07.958 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=especialidad1, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.958 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property especialidad1 with lazy=false
+2023-06-29 14:35:07.958 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:especialidad1]
+2023-06-29 14:35:07.958 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for especialidad1
+2023-06-29 14:35:07.958 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad1]
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad1]
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad1]
+2023-06-29 14:35:07.959 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property especialidad1
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading especialidad1 with null
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.especialidad2
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad2]
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad2]
+2023-06-29 14:35:07.959 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=especialidad2, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.959 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property especialidad2 with lazy=false
+2023-06-29 14:35:07.959 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:especialidad2]
+2023-06-29 14:35:07.959 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for especialidad2
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad2]
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad2]
+2023-06-29 14:35:07.959 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad2]
+2023-06-29 14:35:07.960 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property especialidad2
+2023-06-29 14:35:07.960 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading especialidad2 with null
+2023-06-29 14:35:07.960 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.especialidad3
+2023-06-29 14:35:07.960 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad3]
+2023-06-29 14:35:07.961 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad3]
+2023-06-29 14:35:07.961 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=especialidad3, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.961 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property especialidad3 with lazy=false
+2023-06-29 14:35:07.961 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:especialidad3]
+2023-06-29 14:35:07.961 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for especialidad3
+2023-06-29 14:35:07.961 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad3]
+2023-06-29 14:35:07.961 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad3]
+2023-06-29 14:35:07.961 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [especialidad3]
+2023-06-29 14:35:07.961 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property especialidad3
+2023-06-29 14:35:07.961 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading especialidad3 with null
+2023-06-29 14:35:07.962 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.fichaGoogle
+2023-06-29 14:35:07.962 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [fichaGoogle]
+2023-06-29 14:35:07.962 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [fichaGoogle]
+2023-06-29 14:35:07.962 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=ficha_google, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.962 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property fichaGoogle with lazy=false
+2023-06-29 14:35:07.962 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:fichaGoogle]
+2023-06-29 14:35:07.962 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for fichaGoogle
+2023-06-29 14:35:07.962 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [fichaGoogle]
+2023-06-29 14:35:07.962 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [fichaGoogle]
+2023-06-29 14:35:07.962 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [fichaGoogle]
+2023-06-29 14:35:07.963 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property fichaGoogle
+2023-06-29 14:35:07.963 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading fichaGoogle with null
+2023-06-29 14:35:07.963 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.latitud
+2023-06-29 14:35:07.963 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [latitud]
+2023-06-29 14:35:07.963 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [latitud]
+2023-06-29 14:35:07.963 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=latitud, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.963 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property latitud with lazy=false
+2023-06-29 14:35:07.963 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:latitud]
+2023-06-29 14:35:07.963 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for latitud
+2023-06-29 14:35:07.963 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [latitud]
+2023-06-29 14:35:07.963 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [latitud]
+2023-06-29 14:35:07.964 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [latitud]
+2023-06-29 14:35:07.964 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property latitud
+2023-06-29 14:35:07.964 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading latitud with null
+2023-06-29 14:35:07.964 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.longitud
+2023-06-29 14:35:07.964 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [longitud]
+2023-06-29 14:35:07.964 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [longitud]
+2023-06-29 14:35:07.964 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=longitud, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.964 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property longitud with lazy=false
+2023-06-29 14:35:07.964 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:longitud]
+2023-06-29 14:35:07.964 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for longitud
+2023-06-29 14:35:07.964 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [longitud]
+2023-06-29 14:35:07.966 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [longitud]
+2023-06-29 14:35:07.966 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [longitud]
+2023-06-29 14:35:07.966 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property longitud
+2023-06-29 14:35:07.966 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading longitud with null
+2023-06-29 14:35:07.966 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.nombre
+2023-06-29 14:35:07.966 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [nombre]
+2023-06-29 14:35:07.966 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [nombre]
+2023-06-29 14:35:07.967 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=nombre, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.967 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property nombre with lazy=false
+2023-06-29 14:35:07.967 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:nombre]
+2023-06-29 14:35:07.967 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for nombre
+2023-06-29 14:35:07.969 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [nombre]
+2023-06-29 14:35:07.970 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [nombre]
+2023-06-29 14:35:07.970 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [nombre]
+2023-06-29 14:35:07.970 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property nombre
+2023-06-29 14:35:07.970 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading nombre with null
+2023-06-29 14:35:07.970 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.precioMedio
+2023-06-29 14:35:07.970 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [precioMedio]
+2023-06-29 14:35:07.970 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [precioMedio]
+2023-06-29 14:35:07.970 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=precio_medio, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.971 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property precioMedio with lazy=false
+2023-06-29 14:35:07.971 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:precioMedio]
+2023-06-29 14:35:07.971 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for precioMedio
+2023-06-29 14:35:07.971 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [precioMedio]
+2023-06-29 14:35:07.971 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [precioMedio]
+2023-06-29 14:35:07.971 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [precioMedio]
+2023-06-29 14:35:07.971 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property precioMedio
+2023-06-29 14:35:07.971 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading precioMedio with null
+2023-06-29 14:35:07.971 TRACE 4754 --- [restartedMain] org.hibernate.cfg.AnnotationBinder       : Processing annotations of edu.arelance.nube.repository.entity.Restaurante.web
+2023-06-29 14:35:07.971 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [web]
+2023-06-29 14:35:07.971 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [web]
+2023-06-29 14:35:07.971 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(restaurantes), mappingColumn=web, insertable=true, updatable=true, unique=false}
+2023-06-29 14:35:07.971 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : MetadataSourceProcessor property web with lazy=false
+2023-06-29 14:35:07.972 DEBUG 4754 --- [restartedMain] o.hibernate.cfg.AbstractPropertyHolder   : Attempting to locate auto-apply AttributeConverter for property [edu.arelance.nube.repository.entity.Restaurante:web]
+2023-06-29 14:35:07.972 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : building SimpleValue for web
+2023-06-29 14:35:07.972 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [web]
+2023-06-29 14:35:07.972 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [web]
+2023-06-29 14:35:07.972 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [web]
+2023-06-29 14:35:07.972 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Building property web
+2023-06-29 14:35:07.972 TRACE 4754 --- [restartedMain] o.h.cfg.annotations.PropertyBinder       : Cascading web with null
+2023-06-29 14:35:07.982 DEBUG 4754 --- [restartedMain] e.i.CallbackDefinitionResolverLegacyImpl : Adding generarFechaCreacion as PrePersist callback for entity edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for id
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for barrio
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for creadoEn
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for direccion
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for especialidad1
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for especialidad2
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for especialidad3
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for fichaGoogle
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for latitud
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for longitud
+2023-06-29 14:35:07.989 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for nombre
+2023-06-29 14:35:07.990 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for precioMedio
+2023-06-29 14:35:07.990 DEBUG 4754 --- [restartedMain] o.h.cfg.annotations.SimpleValueBinder    : Starting fillSimpleValue for web
+2023-06-29 14:35:07.991 DEBUG 4754 --- [restartedMain] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [restaurantes]
+2023-06-29 14:35:07.998 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.boot.spi.SessionFactoryBuilderService]
+2023-06-29 14:35:08.015 TRACE 4754 --- [restartedMain] org.hibernate.loader.BatchFetchStyle     : Interpreting BatchFetchStyle from setting : null
+2023-06-29 14:35:08.020 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.bytecode.spi.BytecodeProvider]
+2023-06-29 14:35:08.040 DEBUG 4754 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Building session factory
+2023-06-29 14:35:08.041 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : SessionFactory name : null
+2023-06-29 14:35:08.041 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic flush during beforeCompletion(): enabled
+2023-06-29 14:35:08.041 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic session close at end of transaction: disabled
+2023-06-29 14:35:08.042 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Statistics: disabled
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Deleted entity synthetic identifier rollback: disabled
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Default entity-mode: pojo
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Allow initialization of lazy state outside session : disabled
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Using BatchFetchStyle : LEGACY
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Default batch fetch size: -1
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Maximum outer join fetch depth: 2
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Default null ordering: NONE
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Order SQL updates by primary key: disabled
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Order SQL inserts for batching: disabled
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : multi-tenancy strategy : NONE
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JTA Track by Thread: enabled
+2023-06-29 14:35:08.043 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Query language substitutions: {}
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Named query checking : enabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache: disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level query cache: disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level query cache factory: null
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache region prefix: null
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Optimize second-level cache for minimal puts: disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Structured second-level cache entries: disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Second-level cache direct-reference entries: disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Automatic eviction of collection cache: disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC batch size: 15
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC batch updates for versioned data: enabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Scrollable result sets: enabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Wrap result sets: disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC3 getGeneratedKeys(): enabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JDBC result set fetch size: null
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Connection release mode: ON_CLOSE
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : Generate SQL with comments: enabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JPA compliance - query : disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JPA compliance - closed-handling : disabled
+2023-06-29 14:35:08.044 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JPA compliance - lists : disabled
+2023-06-29 14:35:08.045 DEBUG 4754 --- [restartedMain] org.hibernate.cfg.Settings               : JPA compliance - transactions : disabled
+2023-06-29 14:35:08.045 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+2023-06-29 14:35:08.095 DEBUG 4754 --- [restartedMain] .h.s.i.SessionFactoryServiceRegistryImpl : EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-06-29 14:35:08.097 DEBUG 4754 --- [restartedMain] .h.s.i.SessionFactoryServiceRegistryImpl : EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-06-29 14:35:08.098 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [null]
+2023-06-29 14:35:08.099 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.cache.spi.CacheImplementor]
+2023-06-29 14:35:08.110 DEBUG 4754 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Session factory constructed with filter configurations : {}
+2023-06-29 14:35:08.110 DEBUG 4754 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Instantiating session factory with properties: {hibernate.format_sql=true, hibernate.id.new_generator_mappings=true, java.specification.version=17, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@3b392e4c, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=UTF-8, hibernate.dialect=org.hibernate.dialect.MySQL8Dialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=/Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga/target/classes:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.13/spring-boot-starter-data-jpa-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.13/spring-boot-starter-aop-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-aop/5.3.28/spring-aop-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.13/spring-boot-starter-jdbc-2.7.13.jar:/Users/dpjaraba/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-jdbc/5.3.28/spring-jdbc-5.3.28.jar:/Users/dpjaraba/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/Users/dpjaraba/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/Users/dpjaraba/.m2/repository/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar:/Users/dpjaraba/.m2/repository/org/jboss/logging/jboss-logging/3.4.3.Final/jboss-logging-3.4.3.Final.jar:/Users/dpjaraba/.m2/repository/net/bytebuddy/byte-buddy/1.12.23/byte-buddy-1.12.23.jar:/Users/dpjaraba/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/dpjaraba/.m2/repository/org/jboss/jandex/2.4.2.Final/jandex-2.4.2.Final.jar:/Users/dpjaraba/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/dpjaraba/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.2.Final/hibernate-commons-annotations-5.1.2.Final.jar:/Users/dpjaraba/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.8/jaxb-runtime-2.3.8.jar:/Users/dpjaraba/.m2/repository/org/glassfish/jaxb/txw2/2.3.8/txw2-2.3.8.jar:/Users/dpjaraba/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar:/Users/dpjaraba/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/dpjaraba/.m2/repository/org/springframework/data/spring-data-jpa/2.7.13/spring-data-jpa-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/springframework/data/spring-data-commons/2.7.13/spring-data-commons-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-orm/5.3.28/spring-orm-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-context/5.3.28/spring-context-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-tx/5.3.28/spring-tx-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-beans/5.3.28/spring-beans-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-aspects/5.3.28/spring-aspects-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.13/spring-boot-starter-web-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-starter/2.7.13/spring-boot-starter-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.13/spring-boot-starter-logging-2.7.13.jar:/Users/dpjaraba/.m2/repository/ch/qos/logback/logback-classic/1.2.12/logback-classic-1.2.12.jar:/Users/dpjaraba/.m2/repository/ch/qos/logback/logback-core/1.2.12/logback-core-1.2.12.jar:/Users/dpjaraba/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.17.2/log4j-to-slf4j-2.17.2.jar:/Users/dpjaraba/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/dpjaraba/.m2/repository/org/slf4j/jul-to-slf4j/1.7.36/jul-to-slf4j-1.7.36.jar:/Users/dpjaraba/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/dpjaraba/.m2/repository/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.13/spring-boot-starter-json-2.7.13.jar:/Users/dpjaraba/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar:/Users/dpjaraba/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar:/Users/dpjaraba/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar:/Users/dpjaraba/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.5/jackson-datatype-jdk8-2.13.5.jar:/Users/dpjaraba/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.5/jackson-datatype-jsr310-2.13.5.jar:/Users/dpjaraba/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.5/jackson-module-parameter-names-2.13.5.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.13/spring-boot-starter-tomcat-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.76/tomcat-embed-core-9.0.76.jar:/Users/dpjaraba/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/9.0.76/tomcat-embed-el-9.0.76.jar:/Users/dpjaraba/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.76/tomcat-embed-websocket-9.0.76.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-web/5.3.28/spring-web-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-webmvc/5.3.28/spring-webmvc-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-expression/5.3.28/spring-expression-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-devtools/2.7.13/spring-boot-devtools-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot/2.7.13/spring-boot-2.7.13.jar:/Users/dpjaraba/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.7.13/spring-boot-autoconfigure-2.7.13.jar:/Users/dpjaraba/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/dpjaraba/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/dpjaraba/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-core/5.3.28/spring-core-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springframework/spring-jcl/5.3.28/spring-jcl-5.3.28.jar:/Users/dpjaraba/.m2/repository/org/springdoc/springdoc-openapi-ui/1.7.0/springdoc-openapi-ui-1.7.0.jar:/Users/dpjaraba/.m2/repository/org/springdoc/springdoc-openapi-webmvc-core/1.7.0/springdoc-openapi-webmvc-core-1.7.0.jar:/Users/dpjaraba/.m2/repository/org/springdoc/springdoc-openapi-common/1.7.0/springdoc-openapi-common-1.7.0.jar:/Users/dpjaraba/.m2/repository/io/swagger/core/v3/swagger-core/2.2.9/swagger-core-2.2.9.jar:/Users/dpjaraba/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/dpjaraba/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.5/jackson-dataformat-yaml-2.13.5.jar:/Users/dpjaraba/.m2/repository/io/swagger/core/v3/swagger-annotations/2.2.9/swagger-annotations-2.2.9.jar:/Users/dpjaraba/.m2/repository/io/swagger/core/v3/swagger-models/2.2.9/swagger-models-2.2.9.jar:/Users/dpjaraba/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar:/Users/dpjaraba/.m2/repository/org/webjars/swagger-ui/4.18.2/swagger-ui-4.18.2.jar, com.sun.management.jmxremote.authenticate=false, java.vm.vendor=Eclipse Adoptium, sun.arch.data.model=64, java.vendor.url=https://adoptium.net/, catalina.useNaming=false, user.timezone=Europe/Madrid, jakarta.persistence.sharedCache.mode=UNSPECIFIED, java.vm.specification.version=17, os.name=Mac OS X, javax.persistence.validation.mode=AUTO, jakarta.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), sun.java.launcher=SUN_STANDARD, user.country=ES, sun.boot.library.path=/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.7.v20230425-1502/jre/lib, com.sun.management.jmxremote.ssl=false, sun.java.command=edu.arelance.nube.RestaurantemalagaApplication --spring.output.ansi.enabled=always, spring.application.admin.enabled=true, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.use_sql_comments=true, hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@7c29c688, com.sun.management.jmxremote=, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, sun.cpu.endian=little, spring.boot.project.name=restaurantemalaga, user.home=/Users/dpjaraba, user.language=es, java.specification.vendor=Oracle Corporation, java.version.date=2023-04-18, java.home=/Applications/SpringToolSuite4.app/Contents/Eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.7.v20230425-1502/jre, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, hibernate.persistenceUnitName=default, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, FILE_LOG_CHARSET=UTF-8, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.headless=true, jakarta.persistence.validation.mode=AUTO, hibernate.hbm2ddl.auto=update, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.runtime.version=17.0.7+7, user.name=dpjaraba, spring.jmx.enabled=true, path.separator=:, java.security.egd=file:/dev/./urandom, management.endpoints.jmx.exposure.include=*, os.version=11.7.7, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=OpenJDK 64-Bit Server VM, hibernate.show_sql=true, java.vendor.version=Temurin-17.0.7+7, java.vendor.url.bug=https://github.com/adoptium/adoptium-support/issues, java.io.tmpdir=/var/folders/49/qjjhhmys14s76rzx24njj9zm0000gn/T/, catalina.home=/private/var/folders/49/qjjhhmys14s76rzx24njj9zm0000gn/T/tomcat.8081.3828254519247234057, com.sun.management.jmxremote.port=63984, java.version=17.0.7, hibernate.physical_naming_strategy=org.hibernate.boot.model.naming.CamelCaseToUnderscoresNamingStrategy, user.dir=/Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga, os.arch=x86_64, java.vm.specification.name=Java Virtual Machine Specification, PID=4754, CONSOLE_LOG_CHARSET=UTF-8, catalina.base=/private/var/folders/49/qjjhhmys14s76rzx24njj9zm0000gn/T/tomcat.8081.3828254519247234057, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@134afc40, native.encoding=UTF-8, java.library.path=/Users/dpjaraba/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=Eclipse Adoptium, java.vm.info=mixed mode, emulated-client, java.vm.version=17.0.7+7, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.randomIDs=true, java.rmi.server.hostname=localhost, sun.io.unicode.encoding=UnicodeBig, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.class.version=61.0}
+2023-06-29 14:35:08.125 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+2023-06-29 14:35:08.136 DEBUG 4754 --- [restartedMain] o.h.c.beanvalidation.TypeSafeActivator   : Unable to acquire Bean Validation ValidatorFactory, skipping activation
+2023-06-29 14:35:08.137 DEBUG 4754 --- [restartedMain] org.hibernate.secure.spi.JaccIntegrator  : Skipping JACC integration as it was not enabled
+2023-06-29 14:35:08.138 DEBUG 4754 --- [restartedMain] o.hibernate.internal.SessionFactoryImpl  : Instantiated session factory
+2023-06-29 14:35:08.138 DEBUG 4754 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@47eba6d9] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@79dcd8c9]
+2023-06-29 14:35:08.148 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+2023-06-29 14:35:08.150 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+2023-06-29 14:35:08.177 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+2023-06-29 14:35:08.200 DEBUG 4754 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : Not known whether passed class name [edu.arelance.nube.repository.entity.Restaurante] is safe
+2023-06-29 14:35:08.200 DEBUG 4754 --- [restartedMain] o.h.boot.internal.ClassLoaderAccessImpl  : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:08.205 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.bytecode.spi.ProxyFactoryFactory]
+2023-06-29 14:35:08.476 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [barrio], existing type = [org.hibernate.type.StringType@49dc1f4a], incoming type = [org.hibernate.type.StringType@49dc1f4a]
+2023-06-29 14:35:08.476 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [creadoEn], existing type = [org.hibernate.type.LocalDateTimeType@ee46cf5], incoming type = [org.hibernate.type.LocalDateTimeType@ee46cf5]
+2023-06-29 14:35:08.476 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [direccion], existing type = [org.hibernate.type.StringType@49dc1f4a], incoming type = [org.hibernate.type.StringType@49dc1f4a]
+2023-06-29 14:35:08.476 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [especialidad1], existing type = [org.hibernate.type.StringType@49dc1f4a], incoming type = [org.hibernate.type.StringType@49dc1f4a]
+2023-06-29 14:35:08.476 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [especialidad2], existing type = [org.hibernate.type.StringType@49dc1f4a], incoming type = [org.hibernate.type.StringType@49dc1f4a]
+2023-06-29 14:35:08.476 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [especialidad3], existing type = [org.hibernate.type.StringType@49dc1f4a], incoming type = [org.hibernate.type.StringType@49dc1f4a]
+2023-06-29 14:35:08.476 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [fichaGoogle], existing type = [org.hibernate.type.StringType@49dc1f4a], incoming type = [org.hibernate.type.StringType@49dc1f4a]
+2023-06-29 14:35:08.477 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [latitud], existing type = [org.hibernate.type.FloatType@76fbe591], incoming type = [org.hibernate.type.FloatType@76fbe591]
+2023-06-29 14:35:08.477 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [longitud], existing type = [org.hibernate.type.FloatType@76fbe591], incoming type = [org.hibernate.type.FloatType@76fbe591]
+2023-06-29 14:35:08.477 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [nombre], existing type = [org.hibernate.type.StringType@49dc1f4a], incoming type = [org.hibernate.type.StringType@49dc1f4a]
+2023-06-29 14:35:08.477 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [precioMedio], existing type = [org.hibernate.type.IntegerType@6f137b39], incoming type = [org.hibernate.type.IntegerType@6f137b39]
+2023-06-29 14:35:08.477 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [web], existing type = [org.hibernate.type.StringType@49dc1f4a], incoming type = [org.hibernate.type.StringType@49dc1f4a]
+2023-06-29 14:35:08.477 TRACE 4754 --- [restartedMain] o.h.p.entity.AbstractPropertyMapping     : Skipping duplicate registration of path [id], existing type = [org.hibernate.type.LongType@7522a265], incoming type = [org.hibernate.type.LongType@7522a265]
+2023-06-29 14:35:08.487 DEBUG 4754 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     : Static SQL for entity: edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:08.488 DEBUG 4754 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Version select: /* get version edu.arelance.nube.repository.entity.Restaurante */ select id from restaurantes where id =?
+2023-06-29 14:35:08.488 DEBUG 4754 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Snapshot select: /* get current state edu.arelance.nube.repository.entity.Restaurante */ select restaurant_.id, restaurant_.barrio as barrio2_0_, restaurant_.creado_en as creado_e3_0_, restaurant_.direccion as direccio4_0_, restaurant_.especialidad1 as especial5_0_, restaurant_.especialidad2 as especial6_0_, restaurant_.especialidad3 as especial7_0_, restaurant_.ficha_google as ficha_go8_0_, restaurant_.latitud as latitud9_0_, restaurant_.longitud as longitu10_0_, restaurant_.nombre as nombre11_0_, restaurant_.precio_medio as precio_12_0_, restaurant_.web as web13_0_ from restaurantes restaurant_ where restaurant_.id=?
+2023-06-29 14:35:08.488 DEBUG 4754 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Insert 0: /* insert edu.arelance.nube.repository.entity.Restaurante */ insert into restaurantes (barrio, creado_en, direccion, especialidad1, especialidad2, especialidad3, ficha_google, latitud, longitud, nombre, precio_medio, web, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-06-29 14:35:08.488 DEBUG 4754 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Update 0: /* update edu.arelance.nube.repository.entity.Restaurante */ update restaurantes set barrio=?, creado_en=?, direccion=?, especialidad1=?, especialidad2=?, especialidad3=?, ficha_google=?, latitud=?, longitud=?, nombre=?, precio_medio=?, web=? where id=?
+2023-06-29 14:35:08.488 DEBUG 4754 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Delete 0: /* delete edu.arelance.nube.repository.entity.Restaurante */ delete from restaurantes where id=?
+2023-06-29 14:35:08.488 DEBUG 4754 --- [restartedMain] o.h.p.entity.AbstractEntityPersister     :  Identity insert: /* insert edu.arelance.nube.repository.entity.Restaurante */ insert into restaurantes (barrio, creado_en, direccion, especialidad1, especialidad2, especialidad3, ficha_google, latitud, longitud, nombre, precio_medio, web) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-06-29 14:35:08.522 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy :  Starting root entity : edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:08.527 DEBUG 4754 --- [restartedMain] o.h.l.p.b.i.spaces.QuerySpacesImpl       : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20b84cb4]
+2023-06-29 14:35:08.527 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4bcdad31
+2023-06-29 14:35:08.528 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : .. Registering AssociationKey : AssociationKey(table=restaurantes, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4bcdad31
+2023-06-29 14:35:08.528 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting entity identifier : edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:08.529 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : barrio
+2023-06-29 14:35:08.529 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=barrio, type=string [non-identifier])
+2023-06-29 14:35:08.529 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=barrio, type=string [non-identifier])
+2023-06-29 14:35:08.529 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : creadoEn
+2023-06-29 14:35:08.529 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=creadoEn, type=LocalDateTime [non-identifier])
+2023-06-29 14:35:08.529 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=creadoEn, type=LocalDateTime [non-identifier])
+2023-06-29 14:35:08.529 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : direccion
+2023-06-29 14:35:08.529 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=direccion, type=string [non-identifier])
+2023-06-29 14:35:08.529 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=direccion, type=string [non-identifier])
+2023-06-29 14:35:08.529 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : especialidad1
+2023-06-29 14:35:08.529 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=especialidad1, type=string [non-identifier])
+2023-06-29 14:35:08.529 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=especialidad1, type=string [non-identifier])
+2023-06-29 14:35:08.530 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : especialidad2
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=especialidad2, type=string [non-identifier])
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=especialidad2, type=string [non-identifier])
+2023-06-29 14:35:08.530 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : especialidad3
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=especialidad3, type=string [non-identifier])
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=especialidad3, type=string [non-identifier])
+2023-06-29 14:35:08.530 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : fichaGoogle
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=fichaGoogle, type=string [non-identifier])
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=fichaGoogle, type=string [non-identifier])
+2023-06-29 14:35:08.530 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : latitud
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=latitud, type=float [non-identifier])
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=latitud, type=float [non-identifier])
+2023-06-29 14:35:08.530 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : longitud
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=longitud, type=float [non-identifier])
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=longitud, type=float [non-identifier])
+2023-06-29 14:35:08.530 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : nombre
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=nombre, type=string [non-identifier])
+2023-06-29 14:35:08.530 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=nombre, type=string [non-identifier])
+2023-06-29 14:35:08.530 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : precioMedio
+2023-06-29 14:35:08.531 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=precioMedio, type=integer [non-identifier])
+2023-06-29 14:35:08.531 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=precioMedio, type=integer [non-identifier])
+2023-06-29 14:35:08.531 DEBUG 4754 --- [restartedMain] o.h.p.walking.spi.MetamodelGraphWalker   : Visiting attribute path : web
+2023-06-29 14:35:08.531 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : >> Starting attribute Attribute(name=web, type=string [non-identifier])
+2023-06-29 14:35:08.531 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : << Finishing up attribute : Attribute(name=web, type=string [non-identifier])
+2023-06-29 14:35:08.531 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@4bcdad31
+2023-06-29 14:35:08.531 TRACE 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy :  Finished root entity : edu.arelance.nube.repository.entity.Restaurante
+2023-06-29 14:35:08.531 DEBUG 4754 --- [restartedMain] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2023-06-29 14:35:08.543 DEBUG 4754 --- [restartedMain] h.l.p.e.i.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2023-06-29 14:35:08.548 DEBUG 4754 --- [restartedMain] o.h.l.p.build.spi.LoadPlanTreePrinter    : LoadPlan(entity=edu.arelance.nube.repository.entity.Restaurante)
+    - Returns
+       - EntityReturnImpl(entity=edu.arelance.nube.repository.entity.Restaurante, querySpaceUid=<gen:0>, path=edu.arelance.nube.repository.entity.Restaurante)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.arelance.nube.repository.entity.Restaurante)
+          - SQL table alias mapping - restaurant0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2023-06-29 14:35:08.551 DEBUG 4754 --- [restartedMain] o.h.loader.entity.plan.EntityLoader      : Static select for entity edu.arelance.nube.repository.entity.Restaurante [NONE]: select restaurant0_.id as id1_0_0_, restaurant0_.barrio as barrio2_0_0_, restaurant0_.creado_en as creado_e3_0_0_, restaurant0_.direccion as direccio4_0_0_, restaurant0_.especialidad1 as especial5_0_0_, restaurant0_.especialidad2 as especial6_0_0_, restaurant0_.especialidad3 as especial7_0_0_, restaurant0_.ficha_google as ficha_go8_0_0_, restaurant0_.latitud as latitud9_0_0_, restaurant0_.longitud as longitu10_0_0_, restaurant0_.nombre as nombre11_0_0_, restaurant0_.precio_medio as precio_12_0_0_, restaurant0_.web as web13_0_0_ from restaurantes restaurant0_ where restaurant0_.id=?
+2023-06-29 14:35:08.563 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.MetadataContext   : Wrapping up metadata context...
+2023-06-29 14:35:08.564 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.MetadataContext   : Starting entity [edu.arelance.nube.repository.entity.Restaurante]
+2023-06-29 14:35:08.564 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building identifier attribute [Restaurante.id]
+2023-06-29 14:35:08.564 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [id]
+2023-06-29 14:35:08.565 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private long edu.arelance.nube.repository.entity.Restaurante.id]
+2023-06-29 14:35:08.565 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=long, class=org.hibernate.type.LongType]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.barrio]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [barrio]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.String edu.arelance.nube.repository.entity.Restaurante.barrio]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=string, class=org.hibernate.type.StringType]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.creadoEn]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [creadoEn]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.time.LocalDateTime edu.arelance.nube.repository.entity.Restaurante.creadoEn]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=LocalDateTime, class=org.hibernate.type.LocalDateTimeType]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.direccion]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [direccion]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.String edu.arelance.nube.repository.entity.Restaurante.direccion]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=string, class=org.hibernate.type.StringType]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.especialidad1]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [especialidad1]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.String edu.arelance.nube.repository.entity.Restaurante.especialidad1]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=string, class=org.hibernate.type.StringType]
+2023-06-29 14:35:08.569 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.especialidad2]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [especialidad2]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.String edu.arelance.nube.repository.entity.Restaurante.especialidad2]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=string, class=org.hibernate.type.StringType]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.especialidad3]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [especialidad3]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.String edu.arelance.nube.repository.entity.Restaurante.especialidad3]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=string, class=org.hibernate.type.StringType]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.fichaGoogle]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [fichaGoogle]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.String edu.arelance.nube.repository.entity.Restaurante.fichaGoogle]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=string, class=org.hibernate.type.StringType]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.latitud]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [latitud]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private float edu.arelance.nube.repository.entity.Restaurante.latitud]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=float, class=org.hibernate.type.FloatType]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.longitud]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [longitud]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private float edu.arelance.nube.repository.entity.Restaurante.longitud]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=float, class=org.hibernate.type.FloatType]
+2023-06-29 14:35:08.570 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.nombre]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [nombre]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.String edu.arelance.nube.repository.entity.Restaurante.nombre]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=string, class=org.hibernate.type.StringType]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.precioMedio]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [precioMedio]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.Integer edu.arelance.nube.repository.entity.Restaurante.precioMedio]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Building attribute [Restaurante.web]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  : Starting attribute metadata determination [web]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined member [private java.lang.String edu.arelance.nube.repository.entity.Restaurante.web]
+2023-06-29 14:35:08.571 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.AttributeFactory  :     Determined type [name=string, class=org.hibernate.type.StringType]
+2023-06-29 14:35:08.572 TRACE 4754 --- [restartedMain] o.h.metamodel.internal.MetadataContext   : Completed entity [edu.arelance.nube.repository.entity.Restaurante]
+2023-06-29 14:35:08.579 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.tool.schema.spi.SchemaManagementTool]
+2023-06-29 14:35:08.587 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting [null]
+2023-06-29 14:35:08.588 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+2023-06-29 14:35:08.603 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [bdrestaurantes]
+2023-06-29 14:35:08.604 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [bdrestaurantes] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [restaurantes]
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [restaurantes] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [id]
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [id] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [barrio]
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [barrio] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [creado_en]
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [creado_en] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [direccion]
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [direccion] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.660 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [especialidad1]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [especialidad1] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [especialidad2]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [especialidad2] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [especialidad3]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [especialidad3] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [ficha_google]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [ficha_google] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [latitud]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [latitud] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [longitud]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [longitud] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [nombre]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [nombre] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [precio_medio]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [precio_medio] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [web]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [web] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.661 DEBUG 4754 --- [restartedMain] org.hibernate.mapping.Table              : No alter strings for table : restaurantes
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [restaurantes]
+2023-06-29 14:35:08.661 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [restaurantes] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.662 TRACE 4754 --- [restartedMain] t.h.UniqueConstraintSchemaUpdateStrategy : Interpreting UniqueConstraintSchemaUpdateStrategy from setting : null
+2023-06-29 14:35:08.662 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Normalizing identifier quoting for object name [restaurantes]
+2023-06-29 14:35:08.662 TRACE 4754 --- [restartedMain] .e.j.e.i.NormalizingIdentifierHelperImpl : Rendering unquoted identifier [restaurantes] in mixed case for use in DatabaseMetaData
+2023-06-29 14:35:08.662 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+2023-06-29 14:35:08.663  INFO 4754 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-29 14:35:08.668 DEBUG 4754 --- [restartedMain] .h.s.i.SessionFactoryServiceRegistryImpl : EventListenerRegistry access via ServiceRegistry is deprecated.  Use `sessionFactory.getEventEngine().getListenerRegistry()` instead
+2023-06-29 14:35:08.668 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.hql.spi.QueryTranslatorFactory]
+2023-06-29 14:35:08.669 DEBUG 4754 --- [restartedMain] o.h.h.i.QueryTranslatorFactoryInitiator  : QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@d54352d
+2023-06-29 14:35:08.672 DEBUG 4754 --- [restartedMain] o.h.query.spi.NamedQueryRepository       : Checking 0 named HQL queries
+2023-06-29 14:35:08.672 DEBUG 4754 --- [restartedMain] o.h.query.spi.NamedQueryRepository       : Checking 0 named SQL queries
+2023-06-29 14:35:08.672 TRACE 4754 --- [restartedMain] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@79dcd8c9] for TypeConfiguration
+2023-06-29 14:35:08.673 DEBUG 4754 --- [restartedMain] o.h.internal.SessionFactoryRegistry      : Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@5c254f8c
+2023-06-29 14:35:08.674 DEBUG 4754 --- [restartedMain] o.h.internal.SessionFactoryRegistry      : Registering SessionFactory: 26d84859-c873-41eb-ade6-eec610bfc1b7 (<unnamed>)
+2023-06-29 14:35:08.674 DEBUG 4754 --- [restartedMain] o.h.internal.SessionFactoryRegistry      : Not binding SessionFactory to JNDI, no JNDI name configured
+2023-06-29 14:35:08.674  INFO 4754 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:35:08.852 TRACE 4754 --- [restartedMain] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2023-06-29 14:35:08.903 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+2023-06-29 14:35:08.907 DEBUG 4754 --- [restartedMain] o.h.stat.internal.StatisticsInitiator    : Statistics initialized [enabled=false]
+2023-06-29 14:35:08.909 TRACE 4754 --- [restartedMain] o.h.s.i.AbstractServiceRegistryImpl      : Initializing service [role=org.hibernate.jmx.spi.JmxService]
+2023-06-29 14:35:08.910 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Opened Session [9a886dc3-bf1b-44ec-ab74-259919961eba] at timestamp: 1688042108875
+2023-06-29 14:35:08.913 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [9a886dc3-bf1b-44ec-ab74-259919961eba]
+2023-06-29 14:35:08.913 TRACE 4754 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@1037ee12]
+2023-06-29 14:35:08.913 TRACE 4754 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Opened Session [82e84166-2258-432b-b07e-3f1e2550d202] at timestamp: 1688042108914
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [82e84166-2258-432b-b07e-3f1e2550d202]
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@15cfd10a]
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2023-06-29 14:35:08.914 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2023-06-29 14:35:08.996 TRACE 4754 --- [restartedMain] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2023-06-29 14:35:08.997 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Opened Session [d80b6289-8347-4a4a-a8a4-ed4a2033b105] at timestamp: 1688042108997
+2023-06-29 14:35:08.997 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [d80b6289-8347-4a4a-a8a4-ed4a2033b105]
+2023-06-29 14:35:08.997 TRACE 4754 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@7d6d87da]
+2023-06-29 14:35:08.997 TRACE 4754 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2023-06-29 14:35:08.997 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2023-06-29 14:35:08.997 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2023-06-29 14:35:09.075 TRACE 4754 --- [restartedMain] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2023-06-29 14:35:09.075 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Opened Session [842a1cde-86d1-402a-a63b-bdd572d047ce] at timestamp: 1688042109075
+2023-06-29 14:35:09.080 DEBUG 4754 --- [restartedMain] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-06-29 14:35:09.080 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [842a1cde-86d1-402a-a63b-bdd572d047ce]
+2023-06-29 14:35:09.080 TRACE 4754 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@32cb1d20]
+2023-06-29 14:35:09.080 TRACE 4754 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2023-06-29 14:35:09.081 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2023-06-29 14:35:09.081 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2023-06-29 14:35:09.082 TRACE 4754 --- [restartedMain] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2023-06-29 14:35:09.082 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Opened Session [f04663d6-ddcb-46a7-896c-da7303e4b4e1] at timestamp: 1688042109082
+2023-06-29 14:35:09.082 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [f04663d6-ddcb-46a7-896c-da7303e4b4e1]
+2023-06-29 14:35:09.082 TRACE 4754 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@59c14ec6]
+2023-06-29 14:35:09.082 TRACE 4754 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2023-06-29 14:35:09.082 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2023-06-29 14:35:09.082 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2023-06-29 14:35:09.088 TRACE 4754 --- [restartedMain] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2023-06-29 14:35:09.089 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Opened Session [0769d554-2e8a-4b53-a21e-9d571c1ee8c8] at timestamp: 1688042109089
+2023-06-29 14:35:09.089 DEBUG 4754 --- [restartedMain] o.h.e.t.internal.TransactionImpl         : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2023-06-29 14:35:09.089 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [0769d554-2e8a-4b53-a21e-9d571c1ee8c8]
+2023-06-29 14:35:09.090 TRACE 4754 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@28f1935b]
+2023-06-29 14:35:09.090 TRACE 4754 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2023-06-29 14:35:09.090 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2023-06-29 14:35:09.090 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2023-06-29 14:35:09.093 TRACE 4754 --- [restartedMain] .i.SessionFactoryImpl$SessionBuilderImpl : Opening Hibernate Session.  tenant=null
+2023-06-29 14:35:09.093 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Opened Session [3e0ddd8e-3ea2-40b4-95a6-8dac4e0ac000] at timestamp: 1688042109093
+2023-06-29 14:35:09.093 TRACE 4754 --- [restartedMain] org.hibernate.internal.SessionImpl       : Closing session [3e0ddd8e-3ea2-40b4-95a6-8dac4e0ac000]
+2023-06-29 14:35:09.093 TRACE 4754 --- [restartedMain] o.h.e.jdbc.internal.JdbcCoordinatorImpl  : Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@6e611709]
+2023-06-29 14:35:09.093 TRACE 4754 --- [restartedMain] o.h.r.j.i.ResourceRegistryStandardImpl   : Releasing JDBC resources
+2023-06-29 14:35:09.093 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Closing logical connection
+2023-06-29 14:35:09.093 TRACE 4754 --- [restartedMain] o.h.r.j.i.LogicalConnectionManagedImpl   : Logical connection closed
+2023-06-29 14:35:09.339  WARN 4754 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 14:35:09.962  INFO 4754 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-29 14:35:10.014  INFO 4754 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-29 14:35:10.032  INFO 4754 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Started RestaurantemalagaApplication in 6.05 seconds (JVM running for 7.494)
+2023-06-29 14:36:47.731  INFO 4754 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-29 14:36:47.737  INFO 4754 --- [RMI TCP Connection(11)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-29 14:36:47.767  INFO 4754 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:36:47.768 DEBUG 4754 --- [RMI TCP Connection(11)-127.0.0.1] o.hibernate.internal.SessionFactoryImpl  : HHH000031: Closing
+2023-06-29 14:36:47.768 TRACE 4754 --- [RMI TCP Connection(11)-127.0.0.1] o.h.engine.query.spi.QueryPlanCache      : Cleaning QueryPlan Cache
+2023-06-29 14:36:47.768 TRACE 4754 --- [RMI TCP Connection(11)-127.0.0.1] o.h.type.spi.TypeConfiguration$Scope     : Handling #sessionFactoryClosed from [org.hibernate.internal.SessionFactoryImpl@79dcd8c9] for TypeConfiguration
+2023-06-29 14:36:47.769 DEBUG 4754 --- [RMI TCP Connection(11)-127.0.0.1] o.h.type.spi.TypeConfiguration$Scope     : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@5cd69d7] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@79dcd8c9]
+2023-06-29 14:36:47.770 DEBUG 4754 --- [RMI TCP Connection(11)-127.0.0.1] o.h.s.i.AbstractServiceRegistryImpl      : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2023-06-29 14:36:47.771 DEBUG 4754 --- [RMI TCP Connection(11)-127.0.0.1] o.h.b.r.i.BootstrapServiceRegistryImpl   : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2023-06-29 14:36:47.774  INFO 4754 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-29 14:36:47.788  INFO 4754 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-29 14:36:50.589  INFO 4796 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Starting RestaurantemalagaApplication using Java 17.0.7 on MacBook-Pro-de-Diego.local with PID 4796 (/Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga/target/classes started by dpjaraba in /Users/dpjaraba/workspacests/nubemalaga/restaurantemalaga)
+2023-06-29 14:36:50.590 DEBUG 4796 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Running with Spring Boot v2.7.13, Spring v5.3.28
+2023-06-29 14:36:50.592  INFO 4796 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : No active profile set, falling back to 1 default profile: "default"
+2023-06-29 14:36:50.657  INFO 4796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-29 14:36:50.657  INFO 4796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-29 14:36:51.378  INFO 4796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-29 14:36:51.430  INFO 4796 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2023-06-29 14:36:52.000  INFO 4796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-06-29 14:36:52.010  INFO 4796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-29 14:36:52.010  INFO 4796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.76]
+2023-06-29 14:36:52.081  INFO 4796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-29 14:36:52.081  INFO 4796 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1423 ms
+2023-06-29 14:36:52.253  INFO 4796 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-29 14:36:52.295  INFO 4796 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-06-29 14:36:52.435  INFO 4796 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-06-29 14:36:52.523  INFO 4796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-29 14:36:52.864  INFO 4796 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-29 14:36:52.882  INFO 4796 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-06-29 14:36:53.454  INFO 4796 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-29 14:36:53.466  INFO 4796 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-29 14:36:53.892  WARN 4796 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-29 14:36:54.283  INFO 4796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-29 14:36:54.328  INFO 4796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-29 14:36:54.342  INFO 4796 --- [restartedMain] e.a.nube.RestaurantemalagaApplication    : Started RestaurantemalagaApplication in 4.268 seconds (JVM running for 5.457)

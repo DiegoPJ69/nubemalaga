@@ -9,6 +9,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.PrePersist;
 import javax.persistence.Table;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table (name="restaurantes")
@@ -19,14 +23,21 @@ public class Restaurante {
 	@GeneratedValue (strategy = GenerationType.IDENTITY)//Autoinc en Mysql
 	
 	private long id;
-	private String nombre;
-	private String barrio;
-	private String direccion;
+	@NotNull
+	@NotEmpty
+	private String nombre;//x
+	@NotEmpty
+	private String barrio;//x
+	@NotEmpty
+	private String direccion;//x
+	
 	private String web;
 	private String fichaGoogle;
 	private float latitud;
 	private float longitud;
-	private Integer precioMedio;
+	@Min(2)
+	@Max(500)
+	private Integer precioMedio;//x
 	private String especialidad1;
 	private String especialidad2;
 	private String especialidad3;
@@ -47,19 +58,16 @@ public class Restaurante {
 	public void setId(long id) {
 		this.id = id;
 	}
-
+	
 	public String getNombre() {
 		return nombre;
 	}
-
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
 	public String getBarrio() {
 		return barrio;
 	}
-
 	public void setBarrio(String barrio) {
 		this.barrio = barrio;
 	}
@@ -105,7 +113,7 @@ public class Restaurante {
 	}
 
 	
-
+	
 	public Integer getPrecioMedio() {
 		return precioMedio;
 	}
@@ -163,6 +171,16 @@ public class Restaurante {
 		this.especialidad2 = especialidad2;
 		this.especialidad3 = especialidad3;
 		this.creadoEn = creadoEn;
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Restaurante [id=" + id + ", nombre=" + nombre + ", barrio=" + barrio + ", direccion=" + direccion
+				+ ", web=" + web + ", fichaGoogle=" + fichaGoogle + ", latitud=" + latitud + ", longitud=" + longitud
+				+ ", precioMedio=" + precioMedio + ", especialidad1=" + especialidad1 + ", especialidad2="
+				+ especialidad2 + ", especialidad3=" + especialidad3 + ", creadoEn=" + creadoEn + "]";
 	}
 
 	public Restaurante() {

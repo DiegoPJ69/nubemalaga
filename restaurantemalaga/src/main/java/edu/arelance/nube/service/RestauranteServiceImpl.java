@@ -94,7 +94,20 @@ public class RestauranteServiceImpl implements RestauranteService {
 		
 	}
 
+	@Transactional(readOnly = true)
+	public Iterable<String> obtenerTodosLosBarrios() {
+		return this.restauranteRepository.consultarTodosLosBarrios();
+		
+	}
 	
+	//El ServiceImplemen
+	//@Override
+	//@Transactional(readOnly = true)
+	//public Iterable<String> getAllBarrios() {
+	//	Iterable<String> listaPorBarrios = null;
+	//	listaPorBarrios = this.restauranteRepository.findDistinctByBarrioIgnoreCase();
+	//	return listaPorBarrios;
+	//}
 	
 
 }

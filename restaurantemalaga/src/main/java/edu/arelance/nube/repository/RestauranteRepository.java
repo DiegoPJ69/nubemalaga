@@ -23,6 +23,9 @@ public interface RestauranteRepository extends CrudRepository<Restaurante, Long>
 	@Query(value = "SELECT * FROM bdrestaurantes.restaurantes WHERE barrio LIKE %?1% OR nombre LIKE %?1% OR especialidad1 LIKE %?1% OR especialidad2 LIKE %?1% OR especialidad3 LIKE %?1% ", nativeQuery = true)
 	Iterable<Restaurante> buscarPorBarrioNombreEspecialidad(String criterio);
 	
+	@Query(value = "SELECT DISTINCT barrio from restaurantes", nativeQuery = true)
+    Iterable<String> consultarTodosLosBarrios();
+	
 	//STORED PROCEDURES - Procedimientos Almacenados
 	//5 CRITERIA API - SQL pero con métodos de java
 	

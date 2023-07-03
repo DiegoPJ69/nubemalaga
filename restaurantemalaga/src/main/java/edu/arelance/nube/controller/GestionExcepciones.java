@@ -26,9 +26,11 @@ public class GestionExcepciones {
 		ResponseEntity<?> responseEntity = null;
 			
 			responseEntity = ResponseEntity.internalServerError().body(e.getMessage());
+			//logger.error(e.)
 			
 		return responseEntity;
 	}
+	
 	
 
 }

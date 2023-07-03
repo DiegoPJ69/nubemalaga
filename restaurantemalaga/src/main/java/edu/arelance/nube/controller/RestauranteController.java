@@ -1,14 +1,20 @@
 package edu.arelance.nube.controller;
 
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Optional;
+
+import javax.validation.Valid;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,6 +24,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+
 
 import edu.arelance.nube.repository.entity.Restaurante;
 import edu.arelance.nube.service.RestauranteService;
@@ -42,6 +49,9 @@ import io.swagger.v3.oas.annotations.Operation;
 //@Controller//Devolvemos una vista html/JSP
 @RestController//Devolvemos JSON http://localhost:8081/restaurante
 @RequestMapping("/restaurante")
+Enviroment enviroment=new 
+
+
 public class RestauranteController {
 	
 	@Autowired
@@ -87,17 +97,21 @@ public ResponseEntity<?> listarPorId (@PathVariable Long id){
 	ResponseEntity<?> responseEntity=null;
 	Optional<Restaurante> or=null;
 	
+	logger.debug("En listarPorId "+id);
+	
+	
 	or=this.restauranteService.consultarRestaurante(id);
 	if(or.isPresent())
 	{//la consulta ha recuperadeo un registro
 		Restaurante restauranteleido =or.get();
 		responseEntity=ResponseEntity.ok(restauranteleido);
+		logger.debug("recuperando el registro "+restauranteleido);
 		
 	} else {
 	//la consulta NO ha recuperado un registro
 	responseEntity=ResponseEntity.noContent().build();
-	}
-	
+	logger.debug("el restaurante con id"+id+" no existe");
+	}	
 
 	return responseEntity;
 }
@@ -109,6 +123,8 @@ public ResponseEntity<?> listarPorRangoPrecio(@RequestParam (name="preciomin") i
 	
 	ResponseEntity<?> responseEntity=null;
 	Iterable <Restaurante> lrr=null;
+	
+	logger.debug("En listarPorRangoPrecio entre "+ preciomin +" y "+preciomax);
 	
 	lrr=this.restauranteService.consultarRestauranteRangoPrecio (preciomin,preciomax);
 	
@@ -145,13 +161,21 @@ public ResponseEntity<?> listarPorCriterio(@RequestParam (name="criterio") Strin
 //public pq el post lo llama spring (callback)
 
 @PostMapping
-public ResponseEntity<?> insertarRestaurante (@RequestBody Restaurante restaurante)
+public ResponseEntity<?> insertarRestaurante (@Valid @RequestBody Restaurante restaurante,BindingResult bindingResult)
 {
 	ResponseEntity<?> responseEntity = null;
 	Restaurante restauranteNuevo = null;
-	
-		restauranteNuevo = this.restauranteService.altaRestaurante(restaurante);
-		responseEntity = ResponseEntity.status(HttpStatus.CREATED).body(restauranteNuevo);
+	//TODO validar
+	if(bindingResult.hasErrors()) {
+		logger.debug("Errores en la enrtrada post");
+		responseEntity=generarRespuestaErroresValdicacion(bindingResult);
+	} 
+	else 
+	{	
+	logger.debug("entrada post correcta");
+	restauranteNuevo = this.restauranteService.altaRestaurante(restaurante);
+	responseEntity = ResponseEntity.status(HttpStatus.CREATED).body(restauranteNuevo);
+	}
 	
 	return responseEntity;
 }
@@ -159,12 +183,21 @@ public ResponseEntity<?> insertarRestaurante (@RequestBody Restaurante restauran
 
 //PUT -> Modificar un restaurante que ya existe http://localhost:8081/restaurante/id (body restaurante)
 @PutMapping("/{id}")
-public  ResponseEntity<?> modificarRestaurante(@RequestBody Restaurante restaurante,@PathVariable long id){
+public  ResponseEntity<?> modificarRestaurante(@Valid @RequestBody Restaurante restaurante, BindingResult bindingResult, @PathVariable long id){
 	
 	ResponseEntity<?> responseEntity=null;
 	Optional<Restaurante> opRest=null;
 	
 	opRest=this.restauranteService.modificarRestaurante(id, restaurante);
+	
+	
+	if(bindingResult.hasErrors()) {
+		logger.debug("Errores en la enrtrada post");
+	} 
+	else 
+	{	
+	logger.debug("entrada post correcta");
+	
 	
 	if(opRest.isPresent())
 	{
@@ -175,6 +208,25 @@ public  ResponseEntity<?> modificarRestaurante(@RequestBody Restaurante restaura
 	
 	responseEntity=ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 	}
+	}
+	return responseEntity;
+	
+}
+
+private ResponseEntity<?> generarRespuestaErroresValdicacion 
+(BindingResult bindingResult)
+{
+	ResponseEntity<?> responseEntity = null;
+	List<ObjectError> listaErrores = null;
+	
+		listaErrores = bindingResult.getAllErrors();
+		
+		
+		//imprimir los errores por el log
+		listaErrores.forEach(e->logger.error(e.toString()));
+		
+		
+		responseEntity = ResponseEntity.status(HttpStatus.BAD_REQUEST).body(listaErrores);
 	
 	return responseEntity;
 	
@@ -195,6 +247,17 @@ public ResponseEntity<?> borrarPorId (@PathVariable Long id)
 	return responseEntity;	
 }
 
+//Consultar todos lo barrios. Metodo GET a http://localhost:8081/restaurante/barrios
+@GetMapping("/barrios")
+public ResponseEntity<?> obtenerListadoBarrios() {
+    ResponseEntity<?> responseEntity = null;
+    Iterable<String> lista_barrios = null;
+
+        lista_barrios = this.restauranteService.obtenerTodosLosBarrios();
+        responseEntity = ResponseEntity.ok(lista_barrios);
+
+    return responseEntity;
+}
 
 
 }

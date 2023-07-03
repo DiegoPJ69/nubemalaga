@@ -22,6 +22,12 @@ public interface RestauranteService {
 	
 	public Iterable<Restaurante> consultarRestauranteCriterio(String criterio);
 	
+    Iterable<String> obtenerTodosLosBarrios();
+    
+  //Haced un servicio web que devuelva todos los barrios (distintos) de la base de datos :)
+
+  //	Iterable<String> findDistinctByBarrioIgnoreCase();
+	
 	
 
 }
